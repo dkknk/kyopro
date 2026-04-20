@@ -61,7 +61,7 @@ c a.cpp submit.cpp
 
 生成：
 
-g++ -std=c++17 -O2 -x c++-header pch/stdc++.h
+g++ -std=c++17 -x c++-header pch/stdc++.h
 
 使用：
 
