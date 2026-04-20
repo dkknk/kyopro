@@ -116,7 +116,9 @@ ln -s ~/kyopro/tools/c ~/bin/c
 # PCH再生成
 g++ -std=c++17 -x c++-header pch/stdc++.h
 
-#memo
+---
+
+##memo
 何個かはなんとACLそのまま
 このREADMEは9割5分くらいChatGPTが書いたよ！
----
+
