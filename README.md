@@ -6,18 +6,18 @@ C++競技プログラミング用環境
 
 ## ディレクトリ構成
 
-kyopro/
-  lib/                # 再利用ライブラリ
-    graph/
-    data_structure/
-    math/
-    などなど(の予定)
-  verify/             # ライブラリ検証用（Library Checkerなど）
-  contest/            # 作業用（Gitでは無視）
-  tools/              # スクリプト（g, a, c）
-  pch/                # プリコンパイルヘッダ
-  .vscode/            # VSCode設定
-  .verify-helper/     # oj-verify設定
+-kyopro/
+  -lib/                # 再利用ライブラリ
+    -graph/
+    -data_structure/
+    -math/
+    -などなど(の予定)
+  -verify/             # ライブラリ検証用（Library Checkerなど）
+  -contest/            # 作業用（Gitでは無視）
+  -tools/              # スクリプト（g, a, c）
+  -pch/                # プリコンパイルヘッダ
+  -.vscode/            # VSCode設定
+  -.verify-helper/     # oj-verify設定
 
 ---
 
