@@ -6,7 +6,7 @@ C++競技プログラミング用環境
 
 ## ディレクトリ構成
 
--kyopro/
+kyopro/
   - lib/                # 再利用ライブラリ
     - graph/
     - data_structure/
