@@ -1,0 +1,20 @@
+#contest
+contest/
+
+# build
+a.out
+*.out
+*.exe
+
+#bundle
+submit.cpp
+test.cpp
+
+#pch
+*.gch
+
+#verify
+.verify-helper/chche/
+
+#misc
+compile_commands.json

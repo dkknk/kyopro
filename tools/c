@@ -1,0 +1,52 @@
+#!/bin/bash
+
+set -e
+
+SRC=${1:-a.cpp}
+OUT=${2:-submit.cpp}
+
+# 現在地から上に辿って kyopro ルートを探す
+find_root() {
+    local dir="$PWD"
+    while [ "$dir" != "/" ]; do
+        if [ -d "$dir/lib" ] && [ -d "$dir/verify" ]; then
+            echo "$dir"
+            return 0
+        fi
+        dir=$(dirname "$dir")
+    done
+    return 1
+}
+
+ROOT=$(find_root) || {
+    echo "kyopro root not found" >&2
+    exit 1
+}
+
+# 入力ファイルを絶対パス化
+if [ ! -f "$SRC" ]; then
+    echo "source file not found: $SRC" >&2
+    exit 1
+fi
+SRC_ABS=$(realpath "$SRC")
+OUT_ABS=$(realpath -m "$OUT")
+
+TMP=$(mktemp)
+ERR=$(mktemp)
+
+# ルートに移動して bundle
+if ! (
+    cd "$ROOT"
+    oj-bundle "$SRC_ABS" > "$TMP"
+) 2>"$ERR"; then
+    echo "=== bundle failed ===" >&2
+    cat "$ERR" >&2
+    rm -f "$TMP" "$ERR"
+    exit 1
+fi
+
+mv "$TMP" "$OUT_ABS"
+rm -f "$ERR"
+
+xsel --clipboard --input < "$OUT_ABS"
+echo "OK -> $OUT_ABS"
