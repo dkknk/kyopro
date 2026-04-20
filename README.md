@@ -1,152 +1,120 @@
 # kyopro
 
-C++ competitive programming environment.
+C++競技プログラミング用環境
 
 ---
 
-## Directory Structure
+## ディレクトリ構成
 
 kyopro/
-  lib/                # reusable library
+  lib/                # 再利用ライブラリ
     graph/
     data_structure/
     math/
-  verify/             # verification (library checker etc.)
-  contest/            # temporary workspace (ignored by git)
-  tools/              # scripts (g, b, c)
-  pch/                # precompiled header
-  .vscode/            # VSCode config
-  .verify-helper/     # oj-verify config
+    などなど(の予定)
+  verify/             # ライブラリ検証用（Library Checkerなど）
+  contest/            # 作業用（Gitでは無視）
+  tools/              # スクリプト（g, a, c）
+  pch/                # プリコンパイルヘッダ
+  .vscode/            # VSCode設定
+  .verify-helper/     # oj-verify設定
 
 ---
 
-## Setup
+## セットアップ
 
-Requirements:
+必要なもの：
 - g++
-- clang (optional)
 - python3 + pipx
-- xsel (clipboard)
+- xsel（クリップボード用）
 - online-judge-verify-helper
 
-Install:
+インストール：
+
 pipx install online-judge-verify-helper
 
 ---
 
-## Scripts
+## スクリプト
 
-### g (compile)
+### g（コンパイル）
 
 g a.cpp
 
-- uses -O0 (fast compile)
-- uses PCH
-- output: a.out (or specified)
+- 開発用
+- PCH使用
+- 出力：a.out（または指定名）
 
 ---
 
-### b (bundle)
+### c（bundle）
 
-b a.cpp submit.cpp
+c a.cpp submit.cpp
 
-- runs oj-bundle
-- auto-detects project root
-- copies output to clipboard
-
----
-
-### c (pipeline)
-
-c a.cpp verify/sample/a.test.cpp
-
-- compile → bundle → verify
+- oj-bundle を実行
+- kyoproルートを自動検出
+- 結果をクリップボードへコピー
 
 ---
 
-## PCH (Precompiled Header)
+## PCH（プリコンパイルヘッダ）
 
-Generate:
+生成：
+
 g++ -std=c++17 -O2 -x c++-header pch/stdc++.h
 
-Usage:
+使用：
+
 -include "$ROOT/pch/stdc++.h"
 
 ---
 
-## Library Policy
+## ライブラリ方針
 
-- do NOT use <atcoder/all>
-- import only necessary components or reimplement
-- namespace: mylib
-- internal helpers inside detail
-
----
-
-## Available Components
-
-graph:
-- graph.hpp
-- functional_graph.hpp
-
-data_structure:
-- dsu.hpp
-- segtree.hpp
-- lazy_segtree.hpp
-- fenwicktree.hpp
-
-math:
-- modint.hpp
-  - modint998244353
-  - modint1000000007
+- <atcoder/all> は使わない
+- 必要なものだけ使う or 自作する
+- 名前空間：mylib
+- 内部実装は detail に入れる
 
 ---
 
-## Verification
+## 検証
 
 oj-verify run
 
-config:
+設定ファイル：
 .verify-helper/config.toml
 
 ---
 
-## Git Policy
+## Git管理
 
-ignored:
+無視するもの：
 contest/
 *.gch
 a.out
 submit.cpp
 
-tracked:
+管理するもの：
 - lib/
 - verify/
 - tools/
-- configs
+- 設定ファイル
 
 ---
 
-## Notes
-
-- main compile bottleneck is -O2
-- development uses -O0
-- PCH reduces include overhead but not optimization cost
-- contest directory is disposable
-
----
-
-## Rebuild Environment
+## 環境復元
 
 git clone <repo>
 cd kyopro
 
-# setup scripts
+# スクリプト設定
 ln -s ~/kyopro/tools/g ~/bin/g
 ln -s ~/kyopro/tools/b ~/bin/b
 ln -s ~/kyopro/tools/c ~/bin/c
 
-# regenerate pch
-g++ -std=c++17 -O2 -x c++-header pch/stdc++.h
+# PCH再生成
+g++ -std=c++17 -x c++-header pch/stdc++.h
 
+このREADMEは9割5分くらいChatGPTが書いたよ！
 ---
