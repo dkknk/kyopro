@@ -8,7 +8,7 @@ a.out
 
 #bundle
 submit.cpp
-test.cpp
+*test.cpp
 
 #pch
 *.gch
