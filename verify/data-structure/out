@@ -1,0 +1,1123 @@
+[INFO] online-judge-tools 11.5.1 (+ online-judge-api-client 10.10.1)
+[INFO] 18 cases found
+
+[INFO] example_00
+[INFO] time: 0.004258 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/example_00.in /tmp/tmp94vqc__b/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/example_00.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] max_random_00
+[INFO] time: 0.056537 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_00.in /tmp/tmpc19vpwgg/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_00.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+127669_200000
+0_63128_90530_218255354
+0_11286_96868_887965802
+0_77827_25390_715510292
+0_8764_88469_940492657
+0_29173_55401_17237700
+1_10958_16787
+0_20323_115707_975046775
+0_75640_106507_596957364
+0_59287_113164_621795199
+0_50514_95661_427532976
+0_98332_118875_514587149
+0_96888_70773_901205627
+1_16523_97903
+1_33982_37235
+0_78025_97313_445749956
+0_88252_29881_50293760
+0_19251_107294_187482470
+1_4911_35385
+1_30538_126204
+... (199971 lines) ...
+1_88112_89973
+0_47356_94913_672774455
+1_110711_29615
+1_90360_27934
+1_19685_105183
+0_47271_121156_28359293
+0_74973_99020_940280800
+1_117000_125115
+1_78495_13548
+0_60191_109765_859643235
+
+output:
+1
+1
+1
+1
+1
+-1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+... (199970 lines) ...
+242994477
+1
+-1
+-1
+-1
+1
+1
+266776248
+-1
+1
+
+expected:
+1
+1
+1
+1
+1
+-1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+... (199970 lines) ...
+3729192
+1
+-1
+-1
+-1
+1
+1
+583055972
+-1
+1
+
+
+[INFO] max_random_01
+[INFO] time: 0.049264 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_01.in /tmp/tmpiys0grc7/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_01.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+150763_200000
+1_148710_91130
+1_60997_6163
+0_26181_30631_764318019
+1_74839_99299
+0_68610_109799_512649723
+0_115109_148064_413931653
+0_92711_89067_464349773
+0_120081_16614_879934796
+1_128628_51356
+0_120954_13095_68456240
+0_61497_142945_642345680
+0_144897_16801_490155843
+1_63914_115053
+0_118303_40875_979199443
+1_149476_109351
+0_48104_129769_956368452
+1_99017_49408
+1_4993_138407
+0_112725_147006_48350094
+... (199971 lines) ...
+0_123833_117330_438371714
+0_113906_59925_759723117
+0_85282_59295_185014732
+1_59145_18985
+1_138490_43066
+1_109152_53936
+1_7532_75310
+0_102822_149454_489028018
+1_113712_130098
+1_16306_11977
+
+output:
+-1
+-1
+1
+-1
+1
+1
+1
+1
+-1
+1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+1
+1
+... (199970 lines) ...
+1
+1
+1
+-1
+-1
+-1
+402220904
+1
+429147554
+-1
+
+expected:
+-1
+-1
+1
+-1
+1
+1
+1
+1
+-1
+1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+1
+1
+... (199970 lines) ...
+1
+1
+1
+-1
+-1
+-1
+603858270
+1
+127720325
+-1
+
+
+[INFO] max_random_02
+[INFO] time: 0.052507 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_02.in /tmp/tmpmwvp5cw0/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/max_random_02.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+53336_200000
+1_8604_37950
+1_2440_25588
+0_8449_19390_199556156
+1_21346_39052
+0_5008_32820_82066306
+1_9949_15855
+1_52614_36668
+1_47340_47051
+1_3573_14870
+0_2353_12585_325419360
+0_46385_9012_130979687
+1_9155_40434
+1_37128_5511
+1_23192_30835
+1_23909_47584
+1_14454_43779
+1_46676_41827
+0_28890_19543_831722643
+1_24182_1795
+... (199971 lines) ...
+0_2038_48241_731649430
+1_27975_34458
+0_34157_9464_107844202
+1_47207_49606
+0_18797_52088_961365696
+1_47672_5495
+1_6717_32367
+0_22752_40501_740574210
+0_23355_11117_431196066
+1_24511_33730
+
+output:
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+... (199970 lines) ...
+0
+304273439
+0
+554485024
+0
+354419507
+644011901
+0
+0
+123542826
+
+expected:
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+... (199970 lines) ...
+0
+876922834
+0
+853183376
+0
+451898091
+292044629
+0
+0
+954632522
+
+
+[INFO] path_00
+[INFO] time: 0.050591 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_00.in /tmp/tmpyoih1tb3/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_00.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] path_01
+[INFO] time: 0.057912 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_01.in /tmp/tmpaz3h9l6r/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_01.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] path_02
+[INFO] time: 0.062019 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_02.in /tmp/tmp4ltr8xmq/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_02.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] path_03
+[INFO] time: 0.058883 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_03.in /tmp/tmp6lpbgae2/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/path_03.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] random_00
+[INFO] time: 0.042518 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_00.in /tmp/tmp72l47is4/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_00.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+127669_148779
+0_90530_127016_728679735
+0_96868_110974_718153797
+1_25390_62809
+0_81504_8764_379696973
+1_22872_29173
+1_116394_39221
+0_16787_40904_142722043
+1_2167_121616
+0_106507_82485_435955559
+0_59287_113164_621795199
+0_50514_95661_602521662
+0_98332_118875_320964860
+0_96888_70773_901205627
+1_16523_97903
+1_33982_37235
+0_78025_97313_445749956
+0_88252_29881_743288660
+0_19251_107294_531271916
+1_4911_35385
+... (148750 lines) ...
+0_18520_101282_484806193
+1_66359_124392
+1_103932_31043
+0_57822_59720_374825434
+1_37144_85891
+1_71810_97204
+1_65483_62955
+1_79276_49827
+0_6467_100889_418478929
+1_3100_65004
+
+output:
+1
+1
+-1
+1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+... (148749 lines) ...
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+
+expected:
+1
+1
+-1
+1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+... (148749 lines) ...
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+
+
+[INFO] random_01
+[INFO] time: 0.037775 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_01.in /tmp/tmpsl2w81s2/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_01.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+150763_148757
+0_148710_91130_159706693
+0_6163_25106_349331930
+0_30631_74839_538618386
+0_109799_2687_659694084
+1_115109_148064
+1_6277_92711
+1_88483_92749
+0_120081_16614_879934796
+1_128628_51356
+0_120954_13095_68456240
+0_61497_142945_642345680
+0_144897_16801_490155843
+1_63914_115053
+0_118303_40875_979199443
+1_149476_109351
+0_48104_129769_956368452
+1_99017_49408
+1_4993_138407
+0_112725_147006_48350094
+... (148728 lines) ...
+0_35027_17349_924986652
+0_109773_121907_773453021
+1_95513_65700
+0_122307_132323_870622085
+1_124594_121873
+1_44046_63058
+1_17453_91100
+0_125014_41497_527804789
+0_90503_73280_15668537
+1_44231_141696
+
+output:
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+1
+1
+... (148727 lines) ...
+1
+1
+-1
+1
+-1
+-1
+-1
+1
+1
+-1
+
+expected:
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+1
+1
+... (148727 lines) ...
+1
+1
+-1
+1
+-1
+-1
+-1
+1
+1
+-1
+
+
+[INFO] random_02
+[INFO] time: 0.034587 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_02.in /tmp/tmp09akdgxe/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_02.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+53336_120203
+0_8604_37950_414321032
+0_28110_8449_747892231
+0_52083_2931_365739140
+0_5008_32820_16275226
+1_9949_15855
+1_52614_36668
+1_47340_47051
+1_3573_14870
+0_2353_12585_325419360
+0_46385_9012_130979687
+1_9155_40434
+1_37128_5511
+1_23192_30835
+1_23909_47584
+1_14454_43779
+1_46676_41827
+0_28890_19543_958320017
+1_24182_1795
+1_47136_29311
+... (120174 lines) ...
+0_37060_5717_855365018
+1_9522_9873
+1_8304_39497
+0_37920_21308_507003875
+0_23957_50782_125834061
+1_2741_21918
+0_37076_51474_687603547
+0_40150_38405_250088120
+1_18822_2946
+1_24699_11426
+
+output:
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+... (120173 lines) ...
+0
+982607098
+-1
+0
+0
+728206772
+1
+0
+440314440
+567566001
+
+expected:
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+... (120173 lines) ...
+0
+901565120
+-1
+0
+0
+197229451
+1
+0
+72595121
+455283943
+
+
+[INFO] random_03
+[INFO] time: 0.011335 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_03.in /tmp/tmpy7i4wopg/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_03.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] random_04
+[INFO] time: 0.037889 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_04.in /tmp/tmpwp4rb9ui/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_04.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+14868_99117
+0_1759_9400_256401860
+0_6556_11589_486523079
+1_5739_9340
+0_2815_5563_323938745
+0_1234_7605_882881413
+0_1839_14619_389236280
+1_2613_9961
+0_5573_3168_299415491
+0_13320_12057_75461066
+1_6071_12350
+0_9969_11170_452626257
+0_7049_10133_333471627
+0_12435_11338_968436724
+0_3922_7280_806227526
+1_8456_4047
+0_12129_4887_810049338
+1_14097_8256
+1_6800_10833
+1_9527_8432
+... (99088 lines) ...
+1_673_6769
+0_8732_1940_632311307
+0_1859_8679_222474876
+1_7086_4436
+0_6980_10558_893330428
+1_1181_10565
+1_5296_10585
+0_11316_7499_276005960
+0_12705_11815_927201638
+0_12927_2642_459791206
+
+output:
+1
+1
+-1
+1
+1
+1
+-1
+1
+1
+-1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+... (99087 lines) ...
+434090315
+0
+0
+22730501
+0
+602212965
+390729967
+0
+0
+0
+
+expected:
+1
+1
+-1
+1
+1
+1
+-1
+1
+1
+-1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+... (99087 lines) ...
+648240136
+0
+0
+338130692
+0
+668885187
+940619042
+0
+0
+0
+
+
+[INFO] random_05
+[INFO] time: 0.037215 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_05.in /tmp/tmpl3poh9yh/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_05.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+53098_140509
+0_50128_48109_264343900
+1_20080_41384
+1_811_35705
+0_25070_52448_659105163
+1_20229_33271
+0_3193_47974_736854167
+0_10387_48925_889964149
+1_52517_44287
+0_13428_3408_644296297
+1_28398_29254
+0_970_13089_199215309
+1_21336_32700
+1_38832_33829
+1_15277_15517
+0_42319_508_667401564
+1_19317_2220
+1_48015_29980
+1_16914_23646
+1_3738_49234
+... (140480 lines) ...
+0_11626_3482_236150078
+1_26394_22457
+0_45585_7374_166121432
+1_11022_2301
+0_35711_50483_644104872
+0_30784_18639_100741690
+1_24182_16959
+1_5633_4770
+0_9911_7539_270328222
+1_17065_38935
+
+output:
+1
+-1
+-1
+1
+-1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+... (140479 lines) ...
+1
+85531958
+0
+-1
+0
+0
+381702956
+-1
+0
+881416767
+
+expected:
+1
+-1
+-1
+1
+-1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+... (140479 lines) ...
+1
+14300532
+0
+-1
+0
+0
+575251034
+-1
+0
+916983993
+
+
+[INFO] random_06
+[INFO] time: 0.030733 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_06.in /tmp/tmp6eazcju3/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_06.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] random_07
+[INFO] time: 0.009087 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_07.in /tmp/tmpf2rekegc/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_07.out
+judge's output:
+(empty)
+[SUCCESS] AC
+
+[INFO] random_08
+[INFO] time: 0.020168 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_08.in /tmp/tmpax8bpr26/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_08.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+5824_49455
+1_2080_331
+1_2811_1441
+1_4855_630
+0_101_5770_165946280
+0_1916_5803_39395733
+0_4925_5070_526374749
+1_5027_3065
+1_1686_1156
+0_5335_5073_497595538
+0_2015_4685_260433314
+1_781_2638
+1_3755_1404
+0_4245_1130_80717506
+0_694_1919_817900799
+1_4668_37
+1_3931_3749
+0_4760_1923_387914047
+1_115_2991
+0_5392_3363_283283648
+... (49426 lines) ...
+0_5072_59_749513703
+0_3276_1891_539647965
+1_5218_1984
+1_211_5238
+0_2181_2758_811236897
+0_4189_4099_880304782
+0_1455_1592_320629957
+0_1730_5758_354699256
+1_2536_1479
+1_4859_3434
+
+output:
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+1
+-1
+1
+-1
+... (49425 lines) ...
+0
+0
+749143398
+585006135
+0
+0
+0
+0
+169293470
+443197903
+
+expected:
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+1
+-1
+1
+-1
+... (49425 lines) ...
+0
+0
+886328669
+278687580
+0
+0
+0
+0
+880849663
+961981710
+
+
+[INFO] random_09
+[INFO] time: 0.048850 sec
+[INFO] $ /home/yutoy/.cache/online-judge-tools/library-checker-problems/data_structure/unionfind_with_potential/checker /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_09.in /tmp/tmp2lvxy0pb/actual.out /home/yutoy/kyopro/verify/data-structure/.verify-helper/cache/86ea20fb4f7d8e73114dc63b7a3aa716/test/random_09.out
+judge's output:
+(empty)
+[FAILURE] WA
+input:
+106593_195578
+1_43580_50927
+0_81463_50564_375735014
+1_29729_87482
+0_1829_59441_238367238
+1_58949_1289
+0_89921_4898_382507884
+0_100355_83181_541572347
+1_92692_90745
+0_59974_9581_187153627
+0_104725_99198_888643583
+1_79298_90358
+1_11492_12093
+0_80165_75816_356883407
+0_46133_97833_689619828
+0_22448_619_620714821
+1_37837_104919
+1_54182_98521
+0_36906_94610_914493436
+1_8528_11888
+... (195549 lines) ...
+0_98922_105893_7033190
+0_52897_76898_530547932
+0_45899_24568_512228155
+0_17819_38091_129901721
+0_91342_97773_903634407
+1_88219_60430
+0_16482_102728_354956881
+0_96865_10601_687053309
+0_73744_54986_885093765
+0_46170_33728_422587420
+
+output:
+-1
+1
+-1
+1
+-1
+1
+1
+-1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+-1
+1
+... (195548 lines) ...
+0
+0
+0
+0
+1
+67158332
+0
+0
+1
+1
+
+expected:
+-1
+1
+-1
+1
+-1
+1
+1
+-1
+1
+1
+-1
+-1
+1
+1
+1
+-1
+-1
+1
+-1
+1
+... (195548 lines) ...
+0
+0
+0
+0
+1
+45364719
+0
+0
+1
+1
+
+
+[INFO] slowest: 0.062019 sec  (for path_02)
+[INFO] max memory: 4.864000 MB  (for path_00)
+[FAILURE] test failed: 8 AC / 18 cases
+::error file=unionfind_with_potential.test.cpp::failed to verify
