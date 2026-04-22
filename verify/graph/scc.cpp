@@ -1,3 +1,4 @@
+#define PROBLEM "https://judge.yosupo.jp/problem/scc"
 #include<bits/stdc++.h>
 #include "lib/graph/graph.hpp"
 #include "lib/utility.hpp"
@@ -40,8 +41,10 @@ void solve(){
         graph.add_edge(a,b);
     }
     graph.calc();
-    for(auto g : graph.conn){
-        for(auto v : g) cout << v << " ";
+    cout << graph.leaders.size() << "\n";
+    for(auto v : graph.leaders){
+        cout << graph.conn[v].size();
+        for(auto u : graph.conn[v]) cout << " " << u;
         cout << "\n";
     }
 }
