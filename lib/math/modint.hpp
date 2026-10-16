@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/math/modint.hpp
 #pragma once
 #include <cassert>
 #include <cstdint>

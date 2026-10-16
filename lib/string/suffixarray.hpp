@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/string/suffixarray.hpp
 #pragma once
 #include <vector>
 #include <string>

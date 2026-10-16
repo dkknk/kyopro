@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/utility.hpp
 #pragma once
 namespace detail {
   template <typename Tp, size_t Nb>

@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/graph/scc.hpp
 #pragma once
 #include "lib/graph/graph.hpp"
 

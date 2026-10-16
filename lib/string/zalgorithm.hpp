@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/string/zalgorithm.hpp
 #pragma once
 using namespace std;
 

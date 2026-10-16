@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/string/manacher2.hpp
 #pragma once
 using namespace std;
 vector<int> manacher2(const string &tmp) { 

@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/graph/functional_graph.hpp
 #pragma once
 #include<vector>
 #include <assert.h>

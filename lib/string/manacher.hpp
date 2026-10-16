@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/string/manacher.hpp
 #pragma once
 using namespace std;
 vector<int> manacher(const string &s) { //https://ei1333.github.io/luzhiled/snippets/string/manacher.html

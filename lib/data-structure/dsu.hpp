@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/dsu.hpp
 #pragma once
 #include <vector>
 #include <cassert>

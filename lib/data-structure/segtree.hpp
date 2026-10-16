@@ -1,3 +1,4 @@
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/segtree.hpp
 #pragma once
 #include <vector>
 #include <cassert>
