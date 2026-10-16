@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/graph/graph.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/graph/graph.hpp
 #include <vector>
 using namespace std;
 

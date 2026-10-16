@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/lazysegtree.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/lazysegtree.hpp
 #include <vector>
 #include <cassert>
 

@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/utility.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/utility.hpp
 namespace detail {
   template <typename Tp, size_t Nb>
   auto make_v(std::vector<size_t>& sizes, Tp const& x) {

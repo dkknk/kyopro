@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/graph/functional_graph.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/graph/functional_graph.hpp
 #include<vector>
 #include <assert.h>
 #include <numeric>

@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/tree/heavy_light_decomposition.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/tree/heavy_light_decomposition.hpp
 #include <vector>
 #include <utility>
 #include <algorithm>

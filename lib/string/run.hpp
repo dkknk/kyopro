@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/string/run.hpp
 #include<bits/stdc++.h>
+// https://github.com/dkknk/kyopro/blob/main/lib/string/run.hpp
 #include "lib/graph/graph.hpp"
 #include "lib/string/zalgorithm"
 using namespace std;

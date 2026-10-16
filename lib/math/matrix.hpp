@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/math/matrix.hpp
 //https://ei1333.github.io/luzhiled/snippets/math/matrix.html
+// https://github.com/dkknk/kyopro/blob/main/lib/math/matrix.hpp
 template< class T >
 struct Matrix {
   vector< vector< T > > A;

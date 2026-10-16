@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/string/zalgorithm.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/string/zalgorithm.hpp
 using namespace std;
 
 vector<int> z_algorithm(const string &s){ //https://qiita.com/Pro_ktmr/items/16904c9570aa0953bf05

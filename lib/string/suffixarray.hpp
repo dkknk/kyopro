@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/string/suffixarray.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/string/suffixarray.hpp
 #include <vector>
 #include <string>
 #include <algorithm>

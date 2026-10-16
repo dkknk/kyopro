@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/potential_dsu.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/potential_dsu.hpp
 #include <vector>
 #include <cassert>
 #include <algorithm>

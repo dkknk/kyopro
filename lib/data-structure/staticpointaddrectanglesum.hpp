@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/staticpointaddrectanglesum.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/staticpointaddrectanglesum.hpp
 #include <vector>
 #include <tuple>
 #include <lib/data-structure/fenwicktree.hpp>

@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/fenwicktree.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/data-structure/fenwicktree.hpp
 #include <vector>
 #include <cassert>
 

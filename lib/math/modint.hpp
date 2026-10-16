@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/math/modint.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/math/modint.hpp
 #include <cassert>
 #include <cstdint>
 #include <iostream>

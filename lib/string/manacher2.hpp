@@ -1,5 +1,5 @@
-// https://github.com/dkknk/kyopro/blob/main/lib/string/manacher2.hpp
 #pragma once
+// https://github.com/dkknk/kyopro/blob/main/lib/string/manacher2.hpp
 using namespace std;
 vector<int> manacher2(const string &tmp) { 
   int n = tmp.size();
